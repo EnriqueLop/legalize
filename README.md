@@ -11,6 +11,7 @@ Legalize turns official legislation into version-controlled, machine-readable da
 | Country | Repo | Laws | Source | Status |
 |---------|------|------|--------|--------|
 | 🇦🇹 Austria | [legalize-at](https://github.com/legalize-dev/legalize-at) | 21,830 | [RIS](https://www.ris.bka.gv.at/) | ✅ Live |
+| 🇱🇻 Latvia | [legalize-lv](https://github.com/legalize-dev/legalize-lv) | 15,006 | [likumi.lv](https://likumi.lv/) | ✅ Live |
 | 🇪🇸 Spain | [legalize-es](https://github.com/legalize-dev/legalize-es) | 12,235 | [BOE](https://www.boe.es/) | ✅ Live |
 | 🇸🇪 Sweden | [legalize-se](https://github.com/legalize-dev/legalize-se) | 9,701 | [Riksdagen](https://data.riksdagen.se/) | ✅ Live |
 | 🇩🇪 Germany | [legalize-de](https://github.com/legalize-dev/legalize-de) | 5,729 | [GII](https://www.gesetze-im-internet.de/) | ✅ Live |
@@ -52,8 +53,9 @@ git diff 6660bcf^..6660bcf -- spain/BOE-A-1978-31229.md
 | Repo | What |
 |------|------|
 | **[legalize](https://github.com/legalize-dev/legalize)** | This repo. Index, docs, overview. |
-| **[legalize-pipeline](https://github.com/legalize-dev/legalize-pipeline)** | The engine. Fetches, parses, and commits legislation for 9 countries. |
+| **[legalize-pipeline](https://github.com/legalize-dev/legalize-pipeline)** | The engine. Fetches, parses, and commits legislation for 10 countries. |
 | **[legalize-at](https://github.com/legalize-dev/legalize-at)** | Austrian laws (21,830 norms). |
+| **[legalize-lv](https://github.com/legalize-dev/legalize-lv)** | Latvian laws (15,006 consolidated norms). |
 | **[legalize-es](https://github.com/legalize-dev/legalize-es)** | Spanish laws (12,235 norms + 17 autonomous communities). |
 | **[legalize-se](https://github.com/legalize-dev/legalize-se)** | Swedish statutes (9,701 laws). |
 | **[legalize-de](https://github.com/legalize-dev/legalize-de)** | German laws (5,729 laws). |
