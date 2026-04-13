@@ -2,7 +2,7 @@
 
 **Legislation as code.** Every law as a Markdown file. Every reform as a Git commit.
 
-Legalize turns official legislation into version-controlled, machine-readable data. Browse, search, diff, and build on structured legal data from multiple countries.
+Legalize turns official legislation into version-controlled, machine-readable data. Browse, search, diff, and build on structured legal data from 20 countries.
 
 **[legalize.dev](https://legalize.dev)** — Browse laws, see diffs, search across legislation.
 
@@ -10,23 +10,33 @@ Legalize turns official legislation into version-controlled, machine-readable da
 
 | Country | Repo | Laws | Source | Status |
 |---------|------|------|--------|--------|
-| 🇦🇹 Austria | [legalize-at](https://github.com/legalize-dev/legalize-at) | 21,830 | [RIS](https://www.ris.bka.gv.at/) | ✅ Live |
-| 🇱🇻 Latvia | [legalize-lv](https://github.com/legalize-dev/legalize-lv) | 15,006 | [likumi.lv](https://likumi.lv/) | ✅ Live |
+| 🇵🇹 Portugal | [legalize-pt](https://github.com/legalize-dev/legalize-pt) | 109,347 | [DRE](https://dre.pt/) | ✅ Live |
+| 🇮🇹 Italy | [legalize-it](https://github.com/legalize-dev/legalize-it) | 86,496 | [Normattiva](https://www.normattiva.it/) | ✅ Live |
+| 🇺🇸 United States | [legalize-us](https://github.com/legalize-dev/legalize-us) | 59,765 | [OLRC](https://uscode.house.gov/) | ✅ Live |
+| 🇵🇱 Poland | [legalize-pl](https://github.com/legalize-dev/legalize-pl) | 34,115 | [Sejm ELI](https://api.sejm.gov.pl/eli) | ✅ Live |
+| 🇦🇹 Austria | [legalize-at](https://github.com/legalize-dev/legalize-at) | 21,825 | [RIS](https://www.ris.bka.gv.at/) | ✅ Live |
+| 🇳🇱 Netherlands | [legalize-nl](https://github.com/legalize-dev/legalize-nl) | 20,390 | [BWB](https://wetten.overheid.nl/) | ✅ Live |
+| 🇨🇿 Czech Republic | [legalize-cz](https://github.com/legalize-dev/legalize-cz) | 18,337 | [e-Sbírka](https://e-sbirka.gov.cz/) | ✅ Live |
+| 🇧🇪 Belgium | [legalize-be](https://github.com/legalize-dev/legalize-be) | 17,742 | [Justel](https://www.ejustice.just.fgov.be/) | ✅ Live |
+| 🇱🇻 Latvia | [legalize-lv](https://github.com/legalize-dev/legalize-lv) | 15,005 | [likumi.lv](https://likumi.lv/) | ✅ Live |
+| 🇱🇹 Lithuania | [legalize-lt](https://github.com/legalize-dev/legalize-lt) | 14,945 | [TAR](https://www.e-tar.lt/) | ✅ Live |
 | 🇪🇸 Spain | [legalize-es](https://github.com/legalize-dev/legalize-es) | 12,235 | [BOE](https://www.boe.es/) | ✅ Live |
-| 🇸🇪 Sweden | [legalize-se](https://github.com/legalize-dev/legalize-se) | 9,701 | [Riksdagen](https://data.riksdagen.se/) | ✅ Live |
+| 🇺🇾 Uruguay | [legalize-uy](https://github.com/legalize-dev/legalize-uy) | 10,155 | [IMPO](https://www.impo.com.uy/) | ✅ Live |
+| 🇸🇪 Sweden | [legalize-se](https://github.com/legalize-dev/legalize-se) | 8,939 | [Riksdagen](https://data.riksdagen.se/) | ✅ Live |
+| 🇬🇷 Greece | [legalize-gr](https://github.com/legalize-dev/legalize-gr) | 6,803 | [ΕΤ](https://search.et.gr/) | ✅ Live |
+| 🇨🇱 Chile | [legalize-cl](https://github.com/legalize-dev/legalize-cl) | 6,401 | [BCN](https://www.leychile.cl/) | ✅ Live |
 | 🇩🇪 Germany | [legalize-de](https://github.com/legalize-dev/legalize-de) | 5,729 | [GII](https://www.gesetze-im-internet.de/) | ✅ Live |
-| 🇰🇷 South Korea | [legalize-kr](https://github.com/9bow/legalize-kr) | 5,575 | [law.go.kr](https://open.law.go.kr) | ✅ Community |
+| 🇦🇩 Andorra | [legalize-ad](https://github.com/legalize-dev/legalize-ad) | 3,537 | [BOPA](https://www.bopa.ad/) | ✅ Live |
+| 🇦🇷 Argentina | [legalize-ar](https://github.com/legalize-dev/legalize-ar) | 1,909 | [InfoLEG](https://servicios.infoleg.gob.ar/) | ✅ Live |
+| 🇪🇪 Estonia | [legalize-ee](https://github.com/legalize-dev/legalize-ee) | 1,597 | [Riigi Teataja](https://www.riigiteataja.ee/) | ✅ Live |
 | 🇫🇷 France | [legalize-fr](https://github.com/legalize-dev/legalize-fr) | 83 codes | [Légifrance](https://www.legifrance.gouv.fr/) | ✅ Live |
-| 🇵🇹 Portugal | — | — | [DRE](https://dre.pt/) | 🚧 Pipeline ready |
-| 🇱🇹 Lithuania | — | — | [TAR](https://www.e-tar.lt/) | 🚧 Pipeline ready |
-| 🇨🇱 Chile | — | — | [BCN](https://www.bcn.cl/) | 🚧 Pipeline ready |
-| 🇺🇾 Uruguay | — | — | [IMPO](https://www.impo.com.uy/) | 🚧 Pipeline ready |
+| 🇰🇷 South Korea | [legalize-kr](https://github.com/9bow/legalize-kr) | 5,575 | [law.go.kr](https://open.law.go.kr) | ✅ Community |
+| 🇺🇦 Ukraine | [legalize-ua](https://github.com/legalize-dev/legalize-ua) | — | [Rada](https://zakon.rada.gov.ua/) | 🚧 Pipeline ready |
+| 🇮🇪 Ireland | [legalize-ie](https://github.com/legalize-dev/legalize-ie) | — | [ISB](https://www.irishstatutebook.ie/) | 🚧 Pipeline ready |
 | 🇫🇮 Finland | — | — | [Finlex](https://www.finlex.fi/) | 🔜 Help wanted |
-| 🇳🇱 Netherlands | — | — | [Overheid.nl](https://www.overheid.nl/) | 🔜 Help wanted |
 | 🇧🇷 Brazil | — | — | [LeXML](https://www.lexml.gov.br/) | 🔜 Help wanted |
-| 🇺🇸 USA | — | — | — | 🔜 Help wanted |
 
-**Want to add your country?** See the [step-by-step guide](https://github.com/legalize-dev/legalize-pipeline/blob/main/docs/ADDING_A_COUNTRY.md).
+**Want to add your country?** See the [step-by-step guide](https://github.com/legalize-dev/legalize-pipeline/blob/main/ADDING_A_COUNTRY.md).
 
 ## How it works
 
@@ -39,13 +49,13 @@ Standard Git tools become legal research tools:
 git clone https://github.com/legalize-dev/legalize-es.git
 
 # What does Article 135 of the Constitution say today?
-grep -A 10 "Artículo 135" spain/BOE-A-1978-31229.md
+grep -A 10 "Artículo 135" es/BOE-A-1978-31229.md
 
 # When did it change?
-git log --oneline -- spain/BOE-A-1978-31229.md
+git log --oneline -- es/BOE-A-1978-31229.md
 
 # Show the exact diff of the 2011 fiscal stability reform
-git diff 6660bcf^..6660bcf -- spain/BOE-A-1978-31229.md
+git diff 6660bcf^..6660bcf -- es/BOE-A-1978-31229.md
 ```
 
 ## Repos
@@ -53,12 +63,26 @@ git diff 6660bcf^..6660bcf -- spain/BOE-A-1978-31229.md
 | Repo | What |
 |------|------|
 | **[legalize](https://github.com/legalize-dev/legalize)** | This repo. Index, docs, overview. |
-| **[legalize-pipeline](https://github.com/legalize-dev/legalize-pipeline)** | The engine. Fetches, parses, and commits legislation for 10 countries. |
-| **[legalize-at](https://github.com/legalize-dev/legalize-at)** | Austrian laws (21,830 norms). |
-| **[legalize-lv](https://github.com/legalize-dev/legalize-lv)** | Latvian laws (15,006 consolidated norms). |
+| **[legalize-pipeline](https://github.com/legalize-dev/legalize-pipeline)** | The engine. Fetches, parses, and commits legislation for 20+ countries. |
+| **[legalize-pt](https://github.com/legalize-dev/legalize-pt)** | Portuguese laws (109,347 norms). |
+| **[legalize-it](https://github.com/legalize-dev/legalize-it)** | Italian laws (86,496 norms). |
+| **[legalize-us](https://github.com/legalize-dev/legalize-us)** | United States Code (59,765 sections). |
+| **[legalize-pl](https://github.com/legalize-dev/legalize-pl)** | Polish laws (34,115 acts). |
+| **[legalize-at](https://github.com/legalize-dev/legalize-at)** | Austrian laws (21,825 norms). |
+| **[legalize-nl](https://github.com/legalize-dev/legalize-nl)** | Dutch laws (20,390 norms). |
+| **[legalize-cz](https://github.com/legalize-dev/legalize-cz)** | Czech laws (18,337 norms). |
+| **[legalize-be](https://github.com/legalize-dev/legalize-be)** | Belgian laws (17,742 norms). |
+| **[legalize-lv](https://github.com/legalize-dev/legalize-lv)** | Latvian laws (15,005 norms). |
+| **[legalize-lt](https://github.com/legalize-dev/legalize-lt)** | Lithuanian laws (14,945 norms). |
 | **[legalize-es](https://github.com/legalize-dev/legalize-es)** | Spanish laws (12,235 norms + 17 autonomous communities). |
-| **[legalize-se](https://github.com/legalize-dev/legalize-se)** | Swedish statutes (9,701 laws). |
+| **[legalize-uy](https://github.com/legalize-dev/legalize-uy)** | Uruguayan laws (10,155 norms). |
+| **[legalize-se](https://github.com/legalize-dev/legalize-se)** | Swedish statutes (8,939 laws). |
+| **[legalize-gr](https://github.com/legalize-dev/legalize-gr)** | Greek laws (6,803 ΦΕΚ). |
+| **[legalize-cl](https://github.com/legalize-dev/legalize-cl)** | Chilean laws (6,401 norms). |
 | **[legalize-de](https://github.com/legalize-dev/legalize-de)** | German laws (5,729 laws). |
+| **[legalize-ad](https://github.com/legalize-dev/legalize-ad)** | Andorran laws (3,537 norms). |
+| **[legalize-ar](https://github.com/legalize-dev/legalize-ar)** | Argentine laws (1,909 norms). |
+| **[legalize-ee](https://github.com/legalize-dev/legalize-ee)** | Estonian laws (1,597 norms). |
 | **[legalize-fr](https://github.com/legalize-dev/legalize-fr)** | French codes (83 codes). |
 | **[legalize-kr](https://github.com/9bow/legalize-kr)** | South Korean laws (5,575 laws). Community contribution by [@9bow](https://github.com/9bow). |
 
