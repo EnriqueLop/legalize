@@ -29,6 +29,7 @@ Legalize turns official legislation into version-controlled, machine-readable da
 | 🇸🇪 Sweden | [legalize-se](https://github.com/legalize-dev/legalize-se) | 8,942 | [Riksdagen](https://data.riksdagen.se/) | ✅ Live |
 | 🇬🇷 Greece | [legalize-gr](https://github.com/legalize-dev/legalize-gr) | 6,803 | [ΕΤ](https://search.et.gr/) | ✅ Live |
 | 🇨🇱 Chile | [legalize-cl](https://github.com/legalize-dev/legalize-cl) | 6,401 | [BCN](https://www.leychile.cl/) | ✅ Live |
+| 🇨🇴 Colombia | [legalize-co](https://github.com/renzorico/legalize-co) | ~4k | [SUIN-Juriscol](https://www.suin-juriscol.gov.co/) | 🚧 WIP |
 | 🇨🇭 Switzerland | [legalize-ch](https://github.com/legalize-dev/legalize-ch) | 5,789 | [Fedlex](https://www.fedlex.admin.ch/) | ✅ Live |
 | 🇩🇪 Germany | [legalize-de](https://github.com/legalize-dev/legalize-de) | 5,729 | [GII](https://www.gesetze-im-internet.de/) | ✅ Live |
 | 🇮🇪 Ireland | [legalize-ie](https://github.com/legalize-dev/legalize-ie) | 4,021 | [ISB](https://www.irishstatutebook.ie/) | ✅ Live |
