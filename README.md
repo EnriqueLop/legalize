@@ -2,7 +2,7 @@
 
 **Legislation as code.** Every law as a Markdown file. Every reform as a Git commit.
 
-Legalize turns official legislation into version-controlled, machine-readable data. Browse, search, diff, and build on structured legal data from 30 countries.
+Legalize turns official legislation into version-controlled, machine-readable data. Browse, search, diff, and build on structured legal data from 31 countries.
 
 **[legalize.dev](https://legalize.dev)** — Browse laws, see diffs, search across legislation.
 
@@ -76,6 +76,7 @@ git diff 6660bcf^..6660bcf -- es/BOE-A-1978-31229.md
 | **[legalize-sdks](https://github.com/legalize-dev/legalize-sdks)** | Official client libraries for the Legalize API — Python, Node/TypeScript, Go, curl. |
 | **[legalize-pt](https://github.com/legalize-dev/legalize-pt)** | Portuguese laws (109,411 norms). |
 | **[legalize-it](https://github.com/legalize-dev/legalize-it)** | Italian laws (86,518 norms). |
+| **[legalize-co](https://github.com/legalize-dev/legalize-co)** | Colombian laws (71,900 norms). |
 | **[legalize-us](https://github.com/legalize-dev/legalize-us)** | United States Code (59,765 sections). |
 | **[legalize-dk](https://github.com/legalize-dev/legalize-dk)** | Danish laws (45,400 norms). |
 | **[legalize-pl](https://github.com/legalize-dev/legalize-pl)** | Polish laws (34,115 acts). |
