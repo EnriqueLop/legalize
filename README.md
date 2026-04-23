@@ -12,6 +12,7 @@ Legalize turns official legislation into version-controlled, machine-readable da
 |---------|------|------|--------|--------|
 | 🇵🇹 Portugal | [legalize-pt](https://github.com/legalize-dev/legalize-pt) | 109,411 | [DRE](https://dre.pt/) | ✅ Live |
 | 🇮🇹 Italy | [legalize-it](https://github.com/legalize-dev/legalize-it) | 86,518 | [Normattiva](https://www.normattiva.it/) | ✅ Live |
+| 🇨🇴 Colombia | [legalize-co](https://github.com/legalize-dev/legalize-co) | 71,900 | [SUIN-Juriscol](https://www.suin-juriscol.gov.co/) | ✅ Live |
 | 🇺🇸 United States | [legalize-us](https://github.com/legalize-dev/legalize-us) | 59,765 | [OLRC](https://uscode.house.gov/) | ✅ Live |
 | 🇩🇰 Denmark | [legalize-dk](https://github.com/legalize-dev/legalize-dk) | 45,400 | [Retsinformation](https://www.retsinformation.dk/) | ✅ Live |
 | 🇵🇱 Poland | [legalize-pl](https://github.com/legalize-dev/legalize-pl) | 34,115 | [Sejm ELI](https://api.sejm.gov.pl/eli) | ✅ Live |
