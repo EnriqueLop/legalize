@@ -1,4 +1,4 @@
-# Legalize Format Spec v0.1
+# Legalize Format Spec v0.2
 
 Minimal contract for all country repos. Each country's legal system is different — this spec defines what MUST be consistent, and what each country decides for itself.
 
@@ -10,29 +10,29 @@ Every law file must have these 8 fields:
 
 ```yaml
 ---
-titulo: "Full official title of the law"
-identificador: "OFFICIAL-ID-123"
-pais: "xx"
-rango: "law_type"
-fecha_publicacion: "YYYY-MM-DD"
-ultima_actualizacion: "YYYY-MM-DD"
-estado: "vigente"
-fuente: "https://official-source-url"
+title: "Full official title of the law"
+identifier: "OFFICIAL-ID-123"
+country: "xx"
+rank: "law_type"
+publication_date: "YYYY-MM-DD"
+last_updated: "YYYY-MM-DD"
+status: "in_force"
+source: "https://official-source-url"
 ---
 ```
 
-| Field | Description | Format |
-|-------|-------------|--------|
-| `titulo` | Full official title | String |
-| `identificador` | Official ID from the source | String (unique per country) |
-| `pais` | ISO 3166-1 alpha-2 country code | `es`, `fr`, `se`, `kr`, `de`, ... |
-| `rango` | Type of legal text | Free-form string, country-specific |
-| `fecha_publicacion` | Original publication date | ISO 8601 date |
-| `ultima_actualizacion` | Date of the latest reform included | ISO 8601 date |
-| `estado` | Legal status | `vigente`, `derogada`, or `parcialmente_derogada` |
-| `fuente` | URL to the official source | Valid URL |
+| Field              | Description                       | Format                                                                     |
+| :----------------- | :-------------------------------- | :------------------------------------------------------------------------- |
+| `title`            | Full official title               | String                                                                     |
+| `identifier`       | Official ID from the source       | String (unique per country)                                                |
+| `country`          | ISO 3166-1 alpha-2 country code   | `es`, `fr`, `se`, `kr`, `de`, `uk`, ...                                    |
+| `rank`             | Type of legal text                | Free-form string, country-specific                                         |
+| `publication_date` | Original publication date         | ISO 8601 date                                                              |
+| `last_updated`     | Date of the latest reform included | ISO 8601 date                                                              |
+| `status`           | Legal status                      | `in_force`, `repealed`, `partially_repealed`, `annulled`, or `expired`     |
+| `source`           | URL to the official source        | Valid URL                                                                  |
 
-Additional fields are welcome. Korea adds law sub-types, Spain adds `jurisdiccion` for autonomous communities, France may add code structure metadata. These are country-specific extensions.
+Additional fields are welcome. Korea adds law sub-types, Spain adds `jurisdiction` for autonomous communities, the UK adds `type_code` and `document_main_type`, France may add code structure metadata. These are country-specific extensions.
 
 ### Commit format
 
@@ -44,7 +44,7 @@ Source-Date: YYYY-MM-DD
 Norm-Id: LAW-ID
 ```
 
-Types: `[bootstrap]`, `[reforma]`, `[nueva]`, `[derogacion]`, `[correccion]`
+Types: `[bootstrap]`, `[reform]`, `[new]`, `[repeal]`, `[correction]`, `[fix-pipeline]`
 
 The commit's author date must be the real publication date of the reform, not the date the commit was created.
 
@@ -65,10 +65,15 @@ Each country decides and documents in its own README:
 
 - **Directory structure.** Spain uses flat `es/{id}.md`. Korea groups related laws `kr/{name}/`. France has one file per code `fr/{id}.md`. All valid.
 - **What is a "law"?** Each legal system defines its own unit. Spain: individual law (BOE ID). France: consolidated code. Korea: act + decree + ordinance grouped. Sweden: individual statute (SFS number).
-- **Rango values.** Free-form string. Spain: `ley`, `constitucion`, `real_decreto`. France: `code`, `loi`, `ordonnance`. Sweden: `lag`, `balk`, `forordning`. Korea: `법률`, `대통령령`, `부령`.
+- **Rank values.** Free-form string. Spain: `ley`, `constitucion`, `real_decreto`. France: `code`, `loi`, `ordonnance`. Sweden: `lag`, `balk`, `forordning`. Korea: `법률`, `대통령령`, `부령`. UK: `public-general-act`, `statutory-instrument`.
 - **Additional frontmatter fields.** Add whatever is useful for your legal system.
-- **Language.** Each country's content is in its original language. Code, commit types, and trailer keys are in English/Spanish (as established).
+- **Language.** Each country's content is in its original language. Code, commit types, and trailer keys are in English.
 
 ## Versioning
 
-This spec is v0.1. It will evolve as more countries join. Breaking changes will be announced in the hub repo. The `early-stage` notice in each country repo reflects this.
+This spec is v0.2. It will evolve as more countries join. Breaking changes will be announced in the hub repo. The `early-stage` notice in each country repo reflects this.
+
+### Changelog
+
+- **v0.2** — Frontmatter keys, status values, and commit types switched from Spanish to English to match the pipeline (see [legalize-pipeline#52](https://github.com/legalize-dev/legalize-pipeline/pull/52)). Added `annulled`, `expired` status values and `[fix-pipeline]` commit type. Existing commits in country repos retain their original labels (immutable git history).
+- **v0.1** — Initial spec.
