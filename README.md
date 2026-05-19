@@ -38,6 +38,7 @@ Legalize turns official legislation into version-controlled, machine-readable da
 | 🇬🇧 United Kingdom | [legalize-uk](https://github.com/legalize-dev/legalize-uk) | 3,970 | [legislation.gov.uk](https://www.legislation.gov.uk/) | ✅ Live |
 | 🇦🇩 Andorra | [legalize-ad](https://github.com/legalize-dev/legalize-ad) | 3,545 | [BOPA](https://www.bopa.ad/) | ✅ Live |
 | 🇱🇮 Liechtenstein | [legalize-li](https://github.com/legalize-dev/legalize-li) | 3,504 | [LiLex](https://www.gesetze.li/) | ✅ Live |
+| 🇵🇪 Peru | [legalize-pe](https://github.com/crafter-research/legalize-pe) | 1,617 | [SPIJ](https://spij.minjus.gob.pe/) | ✅ Community |
 | 🇪🇪 Estonia | [legalize-ee](https://github.com/legalize-dev/legalize-ee) | 1,597 | [Riigi Teataja](https://www.riigiteataja.ee/) | ✅ Live |
 | 🇳🇴 Norway | [legalize-no](https://github.com/legalize-dev/legalize-no) | 779 | [Lovdata](https://lovdata.no/) | ✅ Live |
 | 🇸🇰 Slovakia | [legalize-sk](https://github.com/legalize-dev/legalize-sk) | 300 | [Slov-Lex](https://www.slov-lex.sk/) | ✅ Live |
@@ -102,6 +103,7 @@ git diff 6660bcf^..6660bcf -- es/BOE-A-1978-31229.md
 | **[legalize-uk](https://github.com/legalize-dev/legalize-uk)** | UK legislation (3,970 acts). |
 | **[legalize-ad](https://github.com/legalize-dev/legalize-ad)** | Andorran laws (3,545 norms). |
 | **[legalize-li](https://github.com/legalize-dev/legalize-li)** | Liechtenstein laws (3,504 norms). |
+| **[legalize-pe](https://github.com/crafter-research/legalize-pe)** | Peruvian laws (1,617 norms). Community contribution by [Crafter Research](https://github.com/crafter-research). |
 | **[legalize-ee](https://github.com/legalize-dev/legalize-ee)** | Estonian laws (1,597 norms). |
 | **[legalize-no](https://github.com/legalize-dev/legalize-no)** | Norwegian laws (779 norms). |
 | **[legalize-sk](https://github.com/legalize-dev/legalize-sk)** | Slovak laws (300 norms). |
